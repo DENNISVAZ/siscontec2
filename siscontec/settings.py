@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['localhost', 'siscontec.herokuapp.com', '127.0.0.1', 'siscontec.com.br']
+ALLOWED_HOSTS = ['localhost', 'siscontec.herokuapp.com', '127.0.0.1', 'siscontec.com.br', 'www.siscontec.com.br']
 
 
 # Application definition
