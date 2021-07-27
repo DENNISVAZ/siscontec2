@@ -1,1 +1,1 @@
-web: gunicorn clinical.wsgi --log-file -
+web: gunicorn siscontec.wsgi --log-file -
